@@ -5,5 +5,5 @@ head(MechaCar_df) #Check data frame
 
 #Linear regression where mpg is the dependent variable
 lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data=MechaCar_df)
-names(summary(lm(mpg ~ vehicle_length + vehicle_weight + 
-             spoiler_angle + ground_clearance + AWD, data=MechaCar_df))) #Get summary stats
+summary(lm(mpg ~ vehicle_length + vehicle_weight + 
+             spoiler_angle + ground_clearance + AWD, data=MechaCar_df)) #Get summary stats
