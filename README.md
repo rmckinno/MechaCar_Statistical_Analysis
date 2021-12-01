@@ -23,7 +23,7 @@ For this dataset, this linear model could predict the mpg of MechaCar prototypes
 The total summary stats show that the total variance for all lots is 62.39. If the specifications for MechaCar calls for the variance of the suspension coils to not to exceed 100 then the total variance is within spec. However, breaking the lots down into individual lots shows that Lot 3 is 70% over specification while the others fall within spec. The high variance in Lot 3 shows that the PSI in those suspension coils are inconsistent and indicates a problem with Lot 3 production line. The variance in Lot 1 is the lowest, followed by Lot 2 and both are well below the required specs.
 
 ## T-Tests on Suspension Coils
-<img src=resources/images/t-tests.png height=550 align=right><br>
+<img src=resources/images/t-tests.png height=550 align=right><br><br/>
 The t-test for all lots versus the population resulted in a p-value of 0.06, greater than the predetermined significance level of 0.05. Since the p-value is below the significance level, there is insufficient evidence to reject the null hypothesis that the observed means are not not statistically different. Therefore, the mean for all lots and the mean of the population are statistically similar.
 
 Running t-tests for the individual lots revealed that Lot 1 and Lot 2 both had statistically similar means to the population mean with p-values of 1.00 and 0.06 respectively. The mean of Lot 1 was exactly the same as the population mean so the p-value of 1 was expected. The mean of Lot 2 varied slightly, enough to drop the p-value but not below the significance level. Neither are statistically different.
