@@ -31,6 +31,6 @@ However, Lot 3 varied enough, with a mean of 1496.14, to have a p-value of 0.04 
 
 ## Study Design for: MechaCar vs Competion
 According to Statista, Fuel Efficiency was the 2nd most important factor behind safety when buying a car. Testing MechaCar's highest avg MPG rating vehicle for fuel efficiency would be ideal. For example if the car is 40mpg that would make it one of the best gas cars in the market.
-Null Hypothesis: The actual MPG of X-MechaCars is the same as MechaCars claim of 40mpg(this is a hypothetical number).
+Null Hypothesis: The actual MPG of MechaCar is the same as AutoRUs claim of 40mpg(this is a hypothetical number).
 To test this hypothesis, randomly select 12 of the vehicles in question as new and gather each vehicle's MPG accounting for same driver and conditions are relatively the same. Compare the mean of the sample to the known population's (AutoRUs rating) average MPG of 40 using a one sample t-test and test if there is a statistical difference between the two group's average MPG.
 
